@@ -2,6 +2,7 @@ sudo apt install git -y;
 git config --global user.name "Thalyson Wilker";
 git config --global user.email "thalison.wilker@gmail.com";
 
+# https://docs.docker.com/engine/install/ubuntu/
 apt remove docker docker-engine docker.io containerd runc;
 apt autoremove;
 apt update;
@@ -17,4 +18,5 @@ apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y;
 docker run hello-world;
 
 apt update;
+# https://docs.docker.com/compose/install/
 apt install docker-compose -y;
