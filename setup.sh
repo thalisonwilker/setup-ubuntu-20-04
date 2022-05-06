@@ -17,4 +17,4 @@ apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y;
 docker run hello-world;
 
 apt update;
-apt install docker-compose;
+apt install docker-compose -y;
